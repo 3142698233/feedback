@@ -1,0 +1,12 @@
+{
+  "name": "feedback-assistant",
+  "version": "3.0.0",
+  "description": "课后反馈助手",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "html-minifier": "^4.0.0"
+  }
+}
