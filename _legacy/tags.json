@@ -1,0 +1,691 @@
+{
+  "subjects": {
+    "math": {
+      "primary": {
+        "strengths": [
+          {
+            "value": "calc_accurate",
+            "label": "计算准确"
+          },
+          {
+            "value": "logic_clear",
+            "label": "逻辑清晰"
+          },
+          {
+            "value": "method_diverse",
+            "label": "解题方法多样"
+          },
+          {
+            "value": "careful",
+            "label": "审题仔细"
+          },
+          {
+            "value": "creative",
+            "label": "思维灵活"
+          }
+        ],
+        "weaks": [
+          {
+            "value": "calc_error",
+            "label": "计算粗心",
+            "advice": "建议每天做10道口算，养成验算习惯"
+          },
+          {
+            "value": "method_single",
+            "label": "解题方法单一",
+            "advice": "尝试用多种方法解同一道题"
+          },
+          {
+            "value": "not_careful",
+            "label": "审题不仔细",
+            "advice": "读题时圈出关键词，养成读两遍的习惯"
+          },
+          {
+            "value": "slow",
+            "label": "做题速度慢",
+            "advice": "限时练习，提高熟练度"
+          },
+          {
+            "value": "concept_confused",
+            "label": "概念混淆",
+            "advice": "整理概念对比表，加强辨析"
+          }
+        ]
+      },
+      "junior": {
+        "strengths": [
+          {
+            "value": "calc_accurate",
+            "label": "计算准确"
+          },
+          {
+            "value": "logic_clear",
+            "label": "逻辑清晰"
+          },
+          {
+            "value": "method_diverse",
+            "label": "解题方法多样"
+          },
+          {
+            "value": "careful",
+            "label": "审题仔细"
+          },
+          {
+            "value": "creative",
+            "label": "思维灵活"
+          }
+        ],
+        "weaks": [
+          {
+            "value": "calc_error",
+            "label": "计算粗心",
+            "advice": "建议验算，注意符号和小数点"
+          },
+          {
+            "value": "method_single",
+            "label": "解题方法单一",
+            "advice": "多尝试不同的解题思路"
+          },
+          {
+            "value": "not_careful",
+            "label": "审题不仔细",
+            "advice": "仔细读题，注意条件和问题"
+          },
+          {
+            "value": "slow",
+            "label": "做题速度慢",
+            "advice": "加强基础训练，提高熟练度"
+          },
+          {
+            "value": "concept_confused",
+            "label": "概念混淆",
+            "advice": "回归课本，理解概念本质"
+          }
+        ]
+      },
+      "senior": {
+        "strengths": [
+          {
+            "value": "calc_accurate",
+            "label": "计算准确"
+          },
+          {
+            "value": "logic_clear",
+            "label": "逻辑清晰"
+          },
+          {
+            "value": "method_diverse",
+            "label": "解题方法多样"
+          },
+          {
+            "value": "careful",
+            "label": "审题仔细"
+          },
+          {
+            "value": "creative",
+            "label": "思维灵活"
+          }
+        ],
+        "weaks": [
+          {
+            "value": "calc_error",
+            "label": "计算粗心",
+            "advice": "注意运算细节，养成验算习惯"
+          },
+          {
+            "value": "method_single",
+            "label": "解题方法单一",
+            "advice": "多思考不同解法，拓宽思路"
+          },
+          {
+            "value": "not_careful",
+            "label": "审题不仔细",
+            "advice": "仔细分析题目条件和要求"
+          },
+          {
+            "value": "slow",
+            "label": "做题速度慢",
+            "advice": "加强限时训练，提高解题效率"
+          },
+          {
+            "value": "concept_confused",
+            "label": "概念混淆",
+            "advice": "系统复习，理清知识脉络"
+          }
+        ]
+      },
+      "homework": [
+        {
+          "value": "done_well",
+          "label": "完成优秀"
+        },
+        {
+          "value": "done_ok",
+          "label": "按时完成"
+        },
+        {
+          "value": "done_poor",
+          "label": "完成一般"
+        },
+        {
+          "value": "not_done",
+          "label": "未完成"
+        }
+      ]
+    },
+    "chinese": {
+      "primary": {
+        "strengths": [
+          {
+            "value": "reading_wide",
+            "label": "阅读广泛"
+          },
+          {
+            "value": "writing_good",
+            "label": "写作表达好"
+          },
+          {
+            "value": "memory_good",
+            "label": "记忆力强"
+          },
+          {
+            "value": "handwriting_neat",
+            "label": "书写工整"
+          },
+          {
+            "value": "thinking_active",
+            "label": "思维活跃"
+          }
+        ],
+        "weaks": [
+          {
+            "value": "reading_little",
+            "label": "阅读量不足",
+            "advice": "每天坚持阅读30分钟"
+          },
+          {
+            "value": "writing_weak",
+            "label": "写作能力弱",
+            "advice": "多读范文，积累好词好句"
+          },
+          {
+            "value": "memory_poor",
+            "label": "记忆力弱",
+            "advice": "及时复习，运用记忆技巧"
+          },
+          {
+            "value": "handwriting_bad",
+            "label": "书写潦草",
+            "advice": "每天练字15分钟"
+          },
+          {
+            "value": "not_careful",
+            "label": "粗心大意",
+            "advice": "做完检查，养成细心习惯"
+          }
+        ]
+      },
+      "junior": {
+        "strengths": [
+          {
+            "value": "reading_wide",
+            "label": "阅读广泛"
+          },
+          {
+            "value": "writing_good",
+            "label": "写作表达好"
+          },
+          {
+            "value": "memory_good",
+            "label": "记忆力强"
+          },
+          {
+            "value": "handwriting_neat",
+            "label": "书写工整"
+          },
+          {
+            "value": "thinking_active",
+            "label": "思维活跃"
+          }
+        ],
+        "weaks": [
+          {
+            "value": "reading_little",
+            "label": "阅读量不足",
+            "advice": "多读经典名著和优秀文章"
+          },
+          {
+            "value": "writing_weak",
+            "label": "写作能力弱",
+            "advice": "多练习写作，学习写作技巧"
+          },
+          {
+            "value": "memory_poor",
+            "label": "记忆力弱",
+            "advice": "理解记忆，不要死记硬背"
+          },
+          {
+            "value": "handwriting_bad",
+            "label": "书写潦草",
+            "advice": "坚持练字，注意卷面整洁"
+          },
+          {
+            "value": "not_careful",
+            "label": "粗心大意",
+            "advice": "仔细审题，认真检查"
+          }
+        ]
+      },
+      "senior": {
+        "strengths": [
+          {
+            "value": "reading_wide",
+            "label": "阅读广泛"
+          },
+          {
+            "value": "writing_good",
+            "label": "写作表达好"
+          },
+          {
+            "value": "memory_good",
+            "label": "记忆力强"
+          },
+          {
+            "value": "handwriting_neat",
+            "label": "书写工整"
+          },
+          {
+            "value": "thinking_active",
+            "label": "思维活跃"
+          }
+        ],
+        "weaks": [
+          {
+            "value": "reading_little",
+            "label": "阅读量不足",
+            "advice": "多读经典，提升文学素养"
+          },
+          {
+            "value": "writing_weak",
+            "label": "写作能力弱",
+            "advice": "多练习，学习优秀作文"
+          },
+          {
+            "value": "memory_poor",
+            "label": "记忆力弱",
+            "advice": "理解记忆，及时复习"
+          },
+          {
+            "value": "handwriting_bad",
+            "label": "书写潦草",
+            "advice": "注意卷面整洁"
+          },
+          {
+            "value": "not_careful",
+            "label": "粗心大意",
+            "advice": "仔细审题，认真检查"
+          }
+        ]
+      },
+      "homework": [
+        {
+          "value": "done_well",
+          "label": "完成优秀"
+        },
+        {
+          "value": "done_ok",
+          "label": "按时完成"
+        },
+        {
+          "value": "done_poor",
+          "label": "完成一般"
+        },
+        {
+          "value": "not_done",
+          "label": "未完成"
+        }
+      ]
+    },
+    "english": {
+      "primary": {
+        "strengths": [
+          {
+            "value": "speaking_fluent",
+            "label": "口语流利"
+          },
+          {
+            "value": "memory_good",
+            "label": "记忆力强"
+          },
+          {
+            "value": "pronunciation_good",
+            "label": "发音标准"
+          },
+          {
+            "value": "grammar_accurate",
+            "label": "语法准确"
+          },
+          {
+            "value": "listening_good",
+            "label": "听力好"
+          }
+        ],
+        "weaks": [
+          {
+            "value": "speaking_weak",
+            "label": "口语薄弱",
+            "advice": "多开口练习，模仿标准发音"
+          },
+          {
+            "value": "memory_poor",
+            "label": "记忆力弱",
+            "advice": "每天背诵单词，运用记忆技巧"
+          },
+          {
+            "value": "pronunciation_bad",
+            "label": "发音不标准",
+            "advice": "多听原版音频，模仿练习"
+          },
+          {
+            "value": "grammar_confused",
+            "label": "语法混淆",
+            "advice": "系统学习语法，多做练习"
+          },
+          {
+            "value": "listening_weak",
+            "label": "听力薄弱",
+            "advice": "每天听英语，培养语感"
+          }
+        ]
+      },
+      "junior": {
+        "strengths": [
+          {
+            "value": "speaking_fluent",
+            "label": "口语流利"
+          },
+          {
+            "value": "memory_good",
+            "label": "记忆力强"
+          },
+          {
+            "value": "pronunciation_good",
+            "label": "发音标准"
+          },
+          {
+            "value": "grammar_accurate",
+            "label": "语法准确"
+          },
+          {
+            "value": "listening_good",
+            "label": "听力好"
+          }
+        ],
+        "weaks": [
+          {
+            "value": "speaking_weak",
+            "label": "口语薄弱",
+            "advice": "多开口练习，参加英语角"
+          },
+          {
+            "value": "memory_poor",
+            "label": "记忆力弱",
+            "advice": "每天背诵单词和课文"
+          },
+          {
+            "value": "pronunciation_bad",
+            "label": "发音不标准",
+            "advice": "多听原版音频，模仿练习"
+          },
+          {
+            "value": "grammar_confused",
+            "label": "语法混淆",
+            "advice": "系统学习语法，多做练习"
+          },
+          {
+            "value": "listening_weak",
+            "label": "听力薄弱",
+            "advice": "每天听英语，培养语感"
+          }
+        ]
+      },
+      "senior": {
+        "strengths": [
+          {
+            "value": "speaking_fluent",
+            "label": "口语流利"
+          },
+          {
+            "value": "memory_good",
+            "label": "记忆力强"
+          },
+          {
+            "value": "pronunciation_good",
+            "label": "发音标准"
+          },
+          {
+            "value": "grammar_accurate",
+            "label": "语法准确"
+          },
+          {
+            "value": "listening_good",
+            "label": "听力好"
+          }
+        ],
+        "weaks": [
+          {
+            "value": "speaking_weak",
+            "label": "口语薄弱",
+            "advice": "多开口练习，提升口语表达"
+          },
+          {
+            "value": "memory_poor",
+            "label": "记忆力弱",
+            "advice": "系统背诵，提升词汇量"
+          },
+          {
+            "value": "pronunciation_bad",
+            "label": "发音不标准",
+            "advice": "多听原版音频，模仿练习"
+          },
+          {
+            "value": "grammar_confused",
+            "label": "语法混淆",
+            "advice": "系统学习语法，多做练习"
+          },
+          {
+            "value": "listening_weak",
+            "label": "听力薄弱",
+            "advice": "每天听英语，培养语感"
+          }
+        ]
+      },
+      "homework": [
+        {
+          "value": "done_well",
+          "label": "完成优秀"
+        },
+        {
+          "value": "done_ok",
+          "label": "按时完成"
+        },
+        {
+          "value": "done_poor",
+          "label": "完成一般"
+        },
+        {
+          "value": "not_done",
+          "label": "未完成"
+        }
+      ]
+    }
+  },
+  "focusOpts": {
+    "primary": [
+      {
+        "value": "very_focused",
+        "label": "高度专注"
+      },
+      {
+        "value": "focused",
+        "label": "比较专注"
+      },
+      {
+        "value": "distracted",
+        "label": "偶有分心"
+      },
+      {
+        "value": "very_distracted",
+        "label": "容易走神"
+      }
+    ],
+    "junior": [
+      {
+        "value": "very_focused",
+        "label": "高度专注"
+      },
+      {
+        "value": "focused",
+        "label": "比较专注"
+      },
+      {
+        "value": "distracted",
+        "label": "偶有分心"
+      },
+      {
+        "value": "very_distracted",
+        "label": "容易走神"
+      }
+    ],
+    "senior": [
+      {
+        "value": "very_focused",
+        "label": "高度专注"
+      },
+      {
+        "value": "focused",
+        "label": "比较专注"
+      },
+      {
+        "value": "distracted",
+        "label": "偶有分心"
+      },
+      {
+        "value": "very_distracted",
+        "label": "容易走神"
+      }
+    ]
+  },
+  "understandOpts": {
+    "primary": [
+      {
+        "value": "mastered",
+        "label": "完全掌握"
+      },
+      {
+        "value": "mostly",
+        "label": "基本理解"
+      },
+      {
+        "value": "partial",
+        "label": "部分理解"
+      },
+      {
+        "value": "confused",
+        "label": "理解困难"
+      }
+    ],
+    "junior": [
+      {
+        "value": "mastered",
+        "label": "完全掌握"
+      },
+      {
+        "value": "mostly",
+        "label": "基本理解"
+      },
+      {
+        "value": "partial",
+        "label": "部分理解"
+      },
+      {
+        "value": "confused",
+        "label": "理解困难"
+      }
+    ],
+    "senior": [
+      {
+        "value": "mastered",
+        "label": "完全掌握"
+      },
+      {
+        "value": "mostly",
+        "label": "基本理解"
+      },
+      {
+        "value": "partial",
+        "label": "部分理解"
+      },
+      {
+        "value": "confused",
+        "label": "理解困难"
+      }
+    ]
+  },
+  "participateOpts": {
+    "primary": [
+      {
+        "value": "active",
+        "label": "积极发言"
+      },
+      {
+        "value": "normal",
+        "label": "正常参与"
+      },
+      {
+        "value": "passive",
+        "label": "较少发言"
+      },
+      {
+        "value": "reluctant",
+        "label": "需要鼓励"
+      }
+    ],
+    "junior": [
+      {
+        "value": "active",
+        "label": "积极发言"
+      },
+      {
+        "value": "normal",
+        "label": "正常参与"
+      },
+      {
+        "value": "passive",
+        "label": "较少发言"
+      },
+      {
+        "value": "reluctant",
+        "label": "需要鼓励"
+      }
+    ],
+    "senior": [
+      {
+        "value": "active",
+        "label": "积极发言"
+      },
+      {
+        "value": "normal",
+        "label": "正常参与"
+      },
+      {
+        "value": "passive",
+        "label": "较少发言"
+      },
+      {
+        "value": "reluctant",
+        "label": "需要鼓励"
+      }
+    ]
+  }
+}
